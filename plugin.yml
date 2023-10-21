@@ -1,0 +1,19 @@
+main: dev.sergiferry.languages.LanguagesPlugin
+name: LanguagesAPI
+description: LanguagesAPI
+author: SergiFerry
+version: '2023.1 BETA'
+api-version: 1.17
+softdepend:
+  - PlaceholderAPI
+  - ProtocolLib
+commands:
+  langapi:
+    description: Language API
+    permission: langapi.command
+    usage: /langapi
+  lang:
+    description: Language API
+    aliases:
+      - language
+    usage: /lang
